@@ -3,37 +3,38 @@ layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Labor of Loyalty"
-date: 2025-April
+date: 2025-04-17
 published: true
 labels:
-  - Robotics
-  - Arduino
+  - CLI
   - C++
+  - GitHub
 summary: "An RPG text-based beta produced by my group for our ECE 205: Object Oriented Programming course."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+Throughout the UH Manoa ECE 205: Object Oriented Programming course, the class was pointed into the direction of completeing labs that would be based upon the previous one. This is to say that 'Lab Assignment 2' would be based on 'Lab Assignment 1' and so forth. Toward the end of the semester, the class was introduced to header files, classes, parsing, story mapping, etc. All of these concepts that were slowly integrated into our labs eventually led us to our final lab assignment for the semester which involved creating a text-based game. My group ultimately decided on making a text-based RPG.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+As far responsibility goes for this project, I was responsible for creating a story flowchart which directed the user choices all back to the same 3 possible endings for the game. Once that was established, I created the initial game character base class and later a player subclass that would inherit some game information from the base class; these were crucial as they were then followed by another subclass to allow the user to choose the specifics of their character such as name, class, and special abilities. Not only that, I also helped in creating some command-line interface for the game to make it more appealing to users. By the end of this project, I learned how important the idea of pair programming is and how this strongly correlated to the ideaa of teamwork. My group had various difficult ideas we wanted to implement, however, being able to work alongside one another opened my eyes to how differing coding styles can be better in certain applicable situations when trying to execute.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
+Below are two of the CLIs I helped develop for the game. One is of the title screen to get the game started and the other is a prompt for the user to select their next destination based on chance:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+          LABOR OF LOYALTY: GAME OF THE YEAR EDITION
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Press any Key
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+```cpp
+Imagination BGM: Scary cave ambience 
+Progress: You passed through 5 doors
+  ___|_|___             ___|_|___             ___|_|___
+ /    1     \          /    2     \          /    3     \
+|   ____    |         |   ____    |         |   ____    |
+|  |    |   |         |  |    |   |         |  |    |   |
+|  |    |   |         |  |    |   |         |  |    |   |
+|  |____|   |         |  |____|   |         |  |____|   |
+|   [==]    |         |   [==]    |         |   [==]    |
+|___________|         |___________|         |___________|
+You encounter three doors, one leads to a battle, another leads to a mischievous elf, and the last to an empty room. The door locks behind you when you enter. Choose wisely.
+```
