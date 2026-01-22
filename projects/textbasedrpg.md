@@ -16,7 +16,7 @@ Throughout the UH Manoa ECE 205: Object Oriented Programming course, the class w
 
 As far responsibility goes for this project, I was responsible for creating a story flowchart which directed the user choices all back to the same 3 possible endings for the game. Once that was established, I created the initial game character base class and later a player subclass that would inherit some game information from the base class; these were crucial as they were then followed by another subclass to allow the user to choose the specifics of their character such as name, class, and special abilities. Not only that, I also helped in creating some command-line interface for the game to make it more appealing to users. By the end of this project, I learned how important the idea of pair programming is and how this strongly correlated to the ideaa of teamwork. My group had various difficult ideas we wanted to implement, however, being able to work alongside one another opened my eyes to how differing coding styles can be better in certain applicable situations when trying to execute.
 
-Below are two of the CLIs I helped develop for the game. One is of the title screen to get the game started and the other is a prompt for the user to select their next destination based on chance:
+Below are two of the CLI outputs I helped develop for the game. One is of the title screen to get the game started and the other is a prompt for the user to select their next destination based on chance. Along with those is an AI generated image we established as a group for our game report's title page:
 
 ```cpp
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -38,3 +38,4 @@ Progress: You passed through 5 doors
 |___________|         |___________|         |___________|
 You encounter three doors, one leads to a battle, another leads to a mischievous elf, and the last to an empty room. The door locks behind you when you enter. Choose wisely.
 ```
+<img class="img-fluid" src="../img/cotton/cotton-header.png">
