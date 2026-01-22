@@ -38,4 +38,6 @@ Progress: You passed through 5 doors
 |___________|         |___________|         |___________|
 You encounter three doors, one leads to a battle, another leads to a mischievous elf, and the last to an empty room. The door locks behind you when you enter. Choose wisely.
 ```
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="text-center p-1">
+  <img width="600px" src="../img/rpgAIGeneratedHome.jpg" class="img" >
+</div>
