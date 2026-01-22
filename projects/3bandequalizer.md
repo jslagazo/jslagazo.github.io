@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/3bandEqualizerStockImage.jpg
+image: img/3bandEqualizerStockImageUpdated.jpg
 title: "3-Band Analog Equalizer"
 date: 2025-12-08
 published: true
@@ -25,7 +25,7 @@ For this final project, I was responsible for assembling the presentations that 
 
 Below is a snippet of the schematic we developed for this project:
 
-<div class="text-center p-4">
+<div class="text-center p-0">
   <img width="600px" src="../img/326_equalizerSchematic.jpg" class="img" >
 </div>
 
