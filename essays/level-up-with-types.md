@@ -16,6 +16,8 @@ So. What do you think about Typescript so far? If you’re a complete newbie, ho
 
 What about athletic software engineering? Did you find the practice WODs to be useful? What do you think about this style of learning? Is it stressful? Is it enjoyable? Do you think it will work for you?
 
+<img width="400px" class="rounded float-start pe-4" src="../img/typescriptLogo.png">
+
 ## Initial Thoughts on Typescript
 As a complete beginner to the Typescript coding language, I am constantly finding myself ...
 
