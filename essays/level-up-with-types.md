@@ -19,7 +19,7 @@ What about athletic software engineering? Did you find the practice WODs to be u
 <img width="200px" class="rounded float-start pe-4" src="../img/typescriptLogo.png">
 
 ## Initial Thoughts on Typescript
-As a complete beginner to the Typescript coding language, I am constantly finding myself ...
+As a complete beginner to the Typescript coding language, I am constantly find myself reconsidering if I truly ever had my first taste of a modern programming experience. At first sight, I believed in the idea that Typescript was just JavaScript with a few extra rules. After going through a few exercises utilzing Typescript though I now see these extra rules, or rather structures, more like guardrails. Initially familiarizing myself with Typescript was, and still is, confusing as I am attempting to learn both JavaScript behavior and TypeScript static checks. Albeit confusing, I feel like the explcit nature Typescript pushes me to aim for in regards to my varialbes and functions are a bonus as a beginner. One moment I feel like I am writing code that is appropriate but, Typescript tells me otherwise and it helps me prevent accidents or spending 20 minutes wondering why my code breaks instead of watching another cat video on Youtube.
 
 ### Comparing to C/C++, Python, MATLAB
 
