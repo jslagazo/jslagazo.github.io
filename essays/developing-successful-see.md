@@ -10,10 +10,7 @@ labels:
   - Skill Development
 ---
 
-Goal:
-Third, create a technical essay (approximately 3-4 paragraphs) that discusses your interests in software engineering and what kinds of skills and experiences you hope to develop in future.
-
-<img width="200px" class="rounded float-start pe-4" src="../img/gameDevelopmentBySE.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/gameDevelopmentBySE.jpg">
 
 ## My Developed Interest in Software Engineering
 Software engineering piques my interest for the sole reason that it presents itself as the intermediate of problem-solving and creating things that people can interact with. I would be a liar if I did not mention that video games play a major reason I developed an interest in the first place. I grew up playing tons of video games and these experiences were responsible for the time I noticed how codes created an entire enjoyable memoir for me. Even before understanding how codes fused visuals, sounds, physics, rules, and user choices, I was curious about what happened behind the screen. This curiosity drove the motive for wanting to create a system of my own; with experience in a object oriented programming course, I was exposed to the idea that game development programming was more like designing a whole other world with logics rather than abstract math.
