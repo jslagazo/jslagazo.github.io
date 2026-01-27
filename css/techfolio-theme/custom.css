@@ -5,10 +5,14 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
+  --tf-black: #000;
+  --tf-cyan: #0dcaf0;
+  --tf-blue3: #2f8ed0;
+  --tf-blue4: #bde3f0;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-fill: var(--bs-black);
   --tf-icon-hover: var(--bs-gray-500);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
