@@ -1,28 +1,37 @@
-/* Default theme. Simple, yet elegant. */
+/* Custom Theme: modifies the default theme to inject a wee bit o' fashion in various places. */
 
-/* Use Open Sans as the default sans serif font. */
+/* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-black: #000;
-  --tf-cyan: #0dcaf0;
-  --tf-blue3: #2f8ed0;
-  --tf-blue4: #bde3f0;
+  /* Purple palette (dark -> light) */
+  --tf-purple1: #4b1b7a;   /* deep purple (replaces green1) */
+  --tf-purple2: #7a3db8;   /* medium purple (replaces green2) */
+  --tf-purple3: #b889e8;   /* light purple (replaces green3) */
+  --tf-purple4: #f1e6fb;   /* very light lavender (replaces green4) */
+
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-black);
-  --tf-icon-hover: var(--bs-gray-500);
+  --bs-link-color: var(--tf-purple1);
+  --tf-pill-bg: var(--tf-purple3);
+
+  /* Icons should be black */
+  --tf-icon-fill: #000;
+  --tf-icon-hover: #000;
+
   --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-footer-bg-color: var(--tf-purple4);
+  --tf-projects-bg-color: var(--tf-purple4);
+}
+
+h1,h2,h3,h4,h5 {
+  color: var(--tf-purple1);
 }
 
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
+  fill: #000; /* force black */
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -30,7 +39,7 @@
 }
 
 .tf-social:hover {
-  fill: var(--tf-icon-hover);
+  fill: #000; /* stay black on hover */
 }
 
 a {
