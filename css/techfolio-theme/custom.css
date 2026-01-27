@@ -6,18 +6,20 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   /* Purple palette (dark -> light) */
-  --tf-purple1: #4b1b7a;   /* deep purple (replaces green1) */
-  --tf-purple2: #7a3db8;   /* medium purple (replaces green2) */
-  --tf-purple3: #b889e8;   /* light purple (replaces green3) */
-  --tf-purple4: #f1e6fb;   /* very light lavender (replaces green4) */
+  --tf-purple1: #4b1b7a;   /* deep purple */
+  --tf-purple2: #7a3db8;   /* medium purple */
+  --tf-purple3: #b889e8;   /* light purple */
+  --tf-purple4: #f1e6fb;   /* very light lavender */
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
+
+  /* Theme colors */
   --bs-link-color: var(--tf-purple1);
   --tf-pill-bg: var(--tf-purple3);
 
-  /* Icons should be black */
+  /* Icons: black normally, purple on hover */
   --tf-icon-fill: #000;
-  --tf-icon-hover: #000;
+  --tf-icon-hover: var(--tf-purple2);
 
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-purple4);
@@ -31,7 +33,7 @@ h1,h2,h3,h4,h5 {
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: #000; /* force black */
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -39,7 +41,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .tf-social:hover {
-  fill: #000; /* stay black on hover */
+  fill: var(--tf-icon-hover);
 }
 
 a {
