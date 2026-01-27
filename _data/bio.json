@@ -33,11 +33,15 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Spring, 2026)",
+      "area": "Electical & Computer Engineering: CENG Track (expected Spring, 2026)",
       "studyType": "B.S.",
       "startDate": "2024-08-26",
       "endDate": "Present",
       "courses": [
+        "ECE 361/L: Digital System & Computer Design",
+        "ECE 362: Discrete Mathematics for Engineers",
+        "ECE 326: Microelectronic Circuits II",
+        "ECE 205: Object Oriented Programming"
       ]
     }
   ],
