@@ -27,7 +27,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub", "gcc/g++", "PASCO Capstone", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub", "gcc/g++", "PASCO Capstone", "LTSpice", "Simulink", "Arduino" ]
     }
   ],
   "education": [
@@ -58,27 +58,15 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Napili Kai Beach Resort",
+      "position": "Recreation Attendant",
+      "website": "https://www.napilikai.com/",
+      "startDate": "2024-02-17",
+      "endDate": "2024-08-09",
+      "summary": "Enhance guest experience with welcoming environment",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Guest Service & Interaction", "Area Maintenance", "Activity Facilitation",
+        "Information Sharing", "Safety Monitoring"
       ]
     }
   ],
