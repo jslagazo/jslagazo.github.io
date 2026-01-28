@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Developing a Successful Software Engineering Experience"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-22
+date: 2026-01-22
 published: true
 labels:
   - Software Engineering
