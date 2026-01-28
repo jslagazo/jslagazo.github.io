@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Leveling Up with Types: A Newbie's Pondering"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-22
+date: 2026-01-22
 published: true
 labels:
   - Software Engineering
