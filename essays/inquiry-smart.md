@@ -30,8 +30,20 @@ Moreover, a smart question shows effort without becoming a journal entry that ev
 ## Case Study of a SMART Apporach
 @to-do
 
+```
+Q: How to add custom.d.ts interfaces of npm module in a library and make it available for other projects
+
+```
+
 ## Case Study of a not so SMART Approach
 @to-do
+
+```
+Q: VBA command button action to display/hide word graphic
+
+I would like to display or hide a in my word document included jpg or something based on a toggle button. I have seen some videos about command buttons in MS Word and seems to be the way to go for me. In the action (onclick?) connected to the button I have to put in VBA code to do the actual code. I assume this could work. First I have to include the graphic in word in some way which hopefully gives me an (object)ID somehow which I can then use in VBA code to reference that and set a property of the object (visible?) to true or false based on the button(toggle) value. Hope this makes sense and someone can help.
+
+```
 
 ## Creating Prompts Moving Forward
 @to-do
