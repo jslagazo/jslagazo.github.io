@@ -11,8 +11,24 @@ labels:
   - Visual Studio Code
 ---
 
-<img class="img-fluid" src="../img/csSatireCartoon.png">
-
 <img width="400px" class="rounded float-start pe-4" src="../img/csSatireCartoon.png">
 
-## GitHub Desktop Push test
+## Coding Standards Are Not for "Style"
+    @todo
+
+## The Underlying Costs of "If It Ain't Broke, Don't Fix It"
+    @todo
+
+## ESLint as a Teacher?
+    @todo
+
+## More Harm Than Good?
+    @todo
+
+## Standards in Retrospect 
+    @todo
+
+
+## Approach to Coding Standards Moving Forward
+    @todo
+
