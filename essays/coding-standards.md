@@ -11,6 +11,8 @@ labels:
   - Visual Studio Code
 ---
 
+<img class="img-fluid" src="../img/csSatireCartoon.png">
+
 <img width="400px" class="rounded float-start pe-4" src="../img/csSatireCartoon.png">
 
 ## GitHub Desktop Push test
