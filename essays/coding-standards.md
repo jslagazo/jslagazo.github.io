@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Coding Standards: Red Squiggles Edition"
+title: "Coding Standards: Inevitable Red Squiggles"
 # All dates must be YYYY-MM-DD format!
 date: 2026-02-11
 published: true
@@ -14,21 +14,21 @@ labels:
 <img width="400px" class="rounded float-start pe-4" src="../img/csSatireCartoon.png">
 
 ## Coding Standards Are Not for "Style"
-    @todo
+@todo
 
 ## The Underlying Costs of "If It Ain't Broke, Don't Fix It"
-    @todo
+@todo
 
 ## ESLint as a Teacher?
-    @todo
+@todo
 
 ## More Harm Than Good?
-    @todo
+@todo
 
 ## Standards in Retrospect 
-    @todo
+@todo
 
 
 ## Approach to Coding Standards Moving Forward
-    @todo
+@todo
 
