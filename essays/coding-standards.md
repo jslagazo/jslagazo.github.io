@@ -11,6 +11,6 @@ labels:
   - Visual Studio Code
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/sqSatireCartoon.jpg">
+<img width="400px" class="rounded float-start pe-4" src="../img/csSatireCartoon.png">
 
 ## GitHub Desktop Push test
