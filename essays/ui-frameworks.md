@@ -19,11 +19,14 @@ Prior to taking ICS 314: Software Engineering I, I had never touched a UI framew
 
 An assignment I have completed in my ICS course involved recreating a simplified version of the [*Island Snow*](https://islandsnow.com/?srsltid=AfmBOor9a_srbCGU0A9ggV3Tyka1QLiIpPGqwkSQlaQAKNbXUN3iI9TE) web page. A great amount of the structure and alignment for this assignment happened directly in the HTML file by composing Bootstrap classes. 
 
-<img width="400px" class="center" src="../img/uiFrameworksBootstrap"> of island snow @todo
+<img width="400px" class="center" src="../img/ui_islandSnow.jpg">
+<class="center" Figure 1. Title>
+
 
 Another assignment involved recreating a web page of our own choice; in particular, I chose a restaurant from my hometown called [*Kimo's*](https://www.kimosmaui.com/). The same deal applied with this assignment in that most of the composition was done through HTML via Bootstrap classes. 
 
-<img width="400px" class="center" src="../img/uiFrameworksBootstrap"> of kimo's @todo
+<img width="400px" class="center" src="../img/ui_kimos.jpg">
+<class="center" Figure 2. Title>
 
 At first, this felt weird since I was putting 'styling' in HTML. After building a couple more web pages though, it all started to make sense. Bootstrap is not trying to replace either HTML/CSS fundamentals rather it is a form of trying to standardize the most common layout decisions so that I don't have to reinvent them every single time.
 
@@ -31,6 +34,30 @@ At first, this felt weird since I was putting 'styling' in HTML. After building 
 The major reason I see why many turn toward utilizing a framework is that it provides a reliable structure that prevents layout chaos. Without a framework, I can make something look correct on my screen, however, it does not protect me from the unpredictable behavior of displaying different widths when resizing the window and essential long-term code security.
 
 Bootstrap gives me patterns that "want" to behave well. In Island Snow, I used a top navbar layout that relies on Bootstrap's navbar, nav, spacing utilities, and icon classes from [Bootstrap Icons](https://icons.getbootstrap.com/). In other words, I don't have to manually position every icon with custom CSS since Bootstrap already solves this basic alignment and spacing problem. Moreover, when creating a cart interaction I did not have to build a dropdown menu behavior from scratch. Bootstrap's dropdown structure was already there waiting for me to implement. Realistically speaking, the payoff comes to consideration when mentioning hand-building behavior and layout as opposed to plugging into a system that already expects common UI needs.
+
+```
+        <nav class="navbar bg-light">
+            <div class="container">
+                <ul class="nav">
+                    <li class="nav-item p-1"><i class="bi bi-facebook"></i></li>
+                    <li class="nav-item p-1"><i class="bi bi-twitter"></i></li>
+                    <li class="nav-item p-1"><i class="bi bi-pinterest"></i></li>
+                    <li class="nav-item p-1"><i class="bi bi-instagram"></i></li>
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item p-1"><i class="bi bi-house-door-fill"></i></li>
+                    <li class="nav-item p-1"><i class="bi bi-search"></i></li>
+                    <li class="nav-item p-1"><i class="bi bi-person-fill"></i></li>
+                    <div class="dropdown-toggle p-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-cart"></i> 0
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Cart is empty.</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+```
+<class="center" Figure 3. Title>
 
 ## The Return of My Investment?
 As frustrating and time consuming the learning curve posed itself to be with UI Bootstrap, I ultimately benefitted in three practical ways:
@@ -57,7 +84,7 @@ Expanding on the notion of black boxes; the part about learning UI frameworks th
 1. Maintainability
   In my *Island Snow* recreation, my custom CSS file was minimal in that it focused the footer color and text color. Most of the layout and spacing was handled by Bootstrap classes and this was a key detail since fewer CSS rules often meant fewer conflicts with the custom styling later on.
 2. Shared Conventions
-  If one were to hand their project over to another individual or revisit it later, Bootstrap classes act like a shared language. A developer who knows Bootstrap can look at syntax like **container**, **row**, **col**, **d-flex**, and can immediately infer the intent of the styling. I feel this is really similar to coding standards in programming as the idea of "less guessing and more consistency" is enforced.
+  If I were to hand my project over to a classmate, Bootstrap classes serves as a shared language. Any of my classmates who has a decent understanding of Bootstrap can look at classes I utilized such as **container**, **row**, **col**, **d-flex**, and can immediately infer the intent of my styling. I feel this is really similar to coding standards in programming as the idea of "less guessing and more consistency" is enforced.
 3. Repetition
   In my *Kimo's* recreation, I relied on repeatable patterns for alignment and spacing, along with a main banner layout that uses positioning utilities with an overlay.
 
