@@ -20,7 +20,7 @@ Prior to taking a software engineering course this Spring 2026 semester, I had n
 An assignment I have completed in my ICS 314: Software Engineering I course involved recreating a simplified version of the [*Island Snow*](https://islandsnow.com/?srsltid=AfmBOor9a_srbCGU0A9ggV3Tyka1QLiIpPGqwkSQlaQAKNbXUN3iI9TE) web page. A great amount of the structure and alignment for this assignment happened directly in the HTML file by composing Bootstrap classes. 
 
 <p style="text-align:center;">
-  <img width="600px" src="../img/ui_islandSnow.jpg" alt="Island Snow page built with Bootstrap 5">
+  <img width="900px" src="../img/ui_islandSnow.jpg" alt="Island Snow page built with Bootstrap 5">
   <br>
   <em>Snapshot 1.</em> My Island Snow web page built with Bootstrap 5
 </p>
@@ -28,7 +28,7 @@ An assignment I have completed in my ICS 314: Software Engineering I course invo
 Another assignment involved recreating a web page of our own choice; in particular, I chose a famous beachside restaurant from my hometown called [*Kimo's*](https://www.kimosmaui.com/). The same deal applied with this assignment in that most of its composition was done through HTML via Bootstrap classes. 
 
 <p style="text-align:center;">
-  <img width="600px" src="../img/ui_kimos.jpg" alt="Kimo's page built with Bootstrap 5">
+  <img width="900px" src="../img/ui_kimos.jpg" alt="Kimo's page built with Bootstrap 5">
   <br>
   <em>Snapshot 2.</em> My Kimo's web page built with Bootstrap 5
 </p>
@@ -69,22 +69,20 @@ As frustrating and time consuming the learning curve posed itself to be with Boo
 1. **Speed**:
     Once I started to familiarize myself with a few key building blocks, like containers or spacing utilities, I noticed how much faster I was at building web pages. My *Island Snow* recreation is a good example of this as the layout uses multiple containers and rows to create consistent margins and spacing between sections.
 2. **Consistency**:
-    Frameworks reduce "random design" and this was relevant to me as a beginner with raw CSS styling. Bootstrap pushed me toward using consistent spacing decisions and structures through use of its utilities and grid. 
-
-    In *Island Snow*, the footer is structured as three equivalent columns using a Bootstrap 'row' and multiple 'col' elements. Doing this was cleaner than writing a custom layout approach for every instance a footer element was needed.
+    Frameworks reduce "random design" and this was relevant to me as a beginner with raw CSS styling. Bootstrap pushed me toward using consistent spacing decisions and structures through use of its utilities and grid. In *Island Snow*, the footer is structured as three equivalent columns using a Bootstrap 'row' and multiple 'col' elements. Doing this was cleaner than writing a custom layout approach for every instance a footer element was needed.
 3. **Responsiveness**:
-    Even when I can attempt implementing responsiveness in CSS, Bootstrap's grid and responsive classes make "good enough" responsiveness easier for me especially this early on into my career.
-
-    In my *Kimo's* web page recreation, the info strip section is responsive using 'col-md' and alignment utilities so that it is adaptable across varying screen sizes. For reference, below are two of the footers I created for each page respectively with these investments in mind.
+    Even when I can attempt implementing responsiveness in CSS, Bootstrap's grid and responsive classes make "good enough" responsiveness easier for me especially this early on into my career. In my *Kimo's* web page recreation, the info strip section is responsive using 'col-md' and alignment utilities so that it is adaptable across varying screen sizes. 
+    
+    For reference, below are two of the footers I created for each page respectively with these returns in mind.
 
 <p style="text-align:center;">
-  <img width="600px" src="../img/ui_islandSnowFooter.jpg" alt="Island Snow footer built with Bootstrap 5">
+  <img width="900px" src="../img/ui_islandSnowFooter.jpg" alt="Island Snow footer built with Bootstrap 5">
   <br>
   <em>Snapshot 3.</em> My Island Snow web page footer built with Bootstrap 5
 </p>
 
 <p style="text-align:center;">
-  <img width="600px" src="../img/ui_kimosFooter.jpg" alt="Kimo's footer built with Bootstrap 5">
+  <img width="900px" src="../img/ui_kimosFooter.jpg" alt="Kimo's footer built with Bootstrap 5">
   <br>
   <em>Snapshot 4.</em> My Kimo's web page footer built with Bootstrap 5
 </p>
