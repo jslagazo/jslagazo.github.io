@@ -17,13 +17,16 @@ labels:
 ## My First UI Framework: Another "New Language" Feeling
 Prior to taking ICS 314: Software Engineering I, I had never touched a UI framework. My initial exposure to front-end work was essentially: write HTML, write CSS, refresh the page, and tweak it until it looks right. When the learning module regarding frameworks came around, it broadened my scope in understanding that CSS was not only a layout problem; it became a vocabulary problem and it gave me the idea that a "right answer" can be a combination of class names instead of an entirely new CSS rule.
 
-An assignment I have completed in my ICS course involved recreating a simplified version of the [*Island Snow*](https://islandsnow.com/?srsltid=AfmBOor9a_srbCGU0A9ggV3Tyka1QLiIpPGqwkSQlaQAKNbXUN3iI9TE) web page. A great amount of the structure and alignment for this assignment happened directly in the HTML file by composing Bootstrap classes. 
+An assignment I have completed in my ICS course involved recreating a simplified version of the [*Island Snow*](https://islandsnow.com/?srsltid=AfmBOor9a_srbCGU0A9ggV3Tyka1QLiIpPGqwkSQlaQAKNbXUN3iI9TE)  web page. A great amount of the structure and alignment for this assignment happened directly in the HTML file by composing Bootstrap classes. 
 
-<img width="400px" class="center" src="../img/ui_islandSnow.jpg">
-<class="center" Figure 1. Title>
+<p style="text-align:center;">
+  <img width="400" src="../img/ui_islandSnow.jpg" alt="Island Snow page built with Bootstrap 5">
+  <br>
+  <em>Figure 1.</em> My Island Snow page built with Bootstrap 5
+</p>
 
 
-Another assignment involved recreating a web page of our own choice; in particular, I chose a restaurant from my hometown called [*Kimo's*](https://www.kimosmaui.com/). The same deal applied with this assignment in that most of the composition was done through HTML via Bootstrap classes. 
+Another assignment involved recreating a web page of our own choice; in particular, I chose a restaurant from my hometown called [*Kimo's*](https://www.kimosmaui.com/). The same deal applied with this assignment in that most of its composition was done through HTML via Bootstrap classes. 
 
 <img width="400px" class="center" src="../img/ui_kimos.jpg">
 <class="center" Figure 2. Title>
@@ -77,6 +80,46 @@ As frustrating and time consuming the learning curve posed itself to be with UI 
 Raw HTML and CSS absolutely works and I honestly believe its still essential to learn. If I did not take the time to understand CSS fundamentals I can guarantee that frameworks would continue to be a black box to me. Regardless, I noticed that raw HTML and CSS gets increasingly difficult to manage when I wanted consistent spacing across a whole site, a predictable layout system, and the ability to reuse components I created before such as navbars, dropdowns, buttons, and footers.
 
 Without a framework, I see creation as a form of inventing my own mini-framework that is reliant on its own spacing scale, layout rules, and component styles. This was great for learning everything at first, however, it was also quite easy to get messy with as altering certain styles increased expectations in maintainability. Bootstrap essentially gives a pre-made system for me to spend building the site which is more efficient as opposed to rebuilding the same layout rules over and over again across multiple sites.
+
+```
+  <!-- Footer -->
+  <footer class="text-white" style="background-color:#006cb8;">
+    <div class="container py-5">
+      <div class="row align-items-center">
+
+        <!-- L.H.S. Text -->
+        <div class="col-md-5 d-flex justify-content-center justify-content-md-center align-items-center gap-3">
+          <div class="fw-bold text-uppercase kimos-title-font" style="letter-spacing:1px; font-size:24px;">
+            Follow Us
+          </div>
+          <!-- White vertical divider -->
+          <div class="border-start border-white" style="height:34px; width:2px"></div>
+          <!-- L.H.S. Social Media Icons -->
+          <div class="d-flex gap-3" style="font-size:24px;">
+            <a class="text-white text-decoration-none" href="#"><strong>f</strong></a>
+            <a class="text-white text-decoration-none" href="#"><i class="bi bi-twitter"></i></a>
+            <a class="text-white text-decoration-none" href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- R.H.S. Newsletter and white vertical divider -->
+        <div class="col-md-7 text-center border-start border-white ps-md-5 mt-4 mt-md-0">
+          <div style="font-size:21px;">
+            Sign Up For Our Newsletter
+          </div>
+          <div class="text-white-75 mb-3" style="font-size:18px;">
+            Receive updates &amp; specials for Kimo's directly to<br class="d-none d-md-block">
+            your inbox!
+          </div>
+          <!-- Button -->
+          <a class="btn btn-danger fw-bold px-4 py-2" href="#" style="font-size:0.9rem;">
+            CLICK HERE
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+```
 
 ## The Software Engineering Benefits
 Expanding on the notion of black boxes; the part about learning UI frameworks that surprised me was how they're not only visuals but, they are closely tied with software engineering. Three software engineering practices I took away from UI frameworks is:
