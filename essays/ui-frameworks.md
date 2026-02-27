@@ -20,7 +20,7 @@ Prior to taking ICS 314: Software Engineering I, I had never touched a UI framew
 An assignment I have completed in my ICS course involved recreating a simplified version of the [*Island Snow*](https://islandsnow.com/?srsltid=AfmBOor9a_srbCGU0A9ggV3Tyka1QLiIpPGqwkSQlaQAKNbXUN3iI9TE)  web page. A great amount of the structure and alignment for this assignment happened directly in the HTML file by composing Bootstrap classes. 
 
 <p style="text-align:center;">
-  <img width="400" src="../img/ui_islandSnow.jpg" alt="Island Snow page built with Bootstrap 5">
+  <img width="600px" src="../img/ui_islandSnow.jpg" alt="Island Snow page built with Bootstrap 5">
   <br>
   <em>Figure 1.</em> My Island Snow page built with Bootstrap 5
 </p>
@@ -28,8 +28,11 @@ An assignment I have completed in my ICS course involved recreating a simplified
 
 Another assignment involved recreating a web page of our own choice; in particular, I chose a restaurant from my hometown called [*Kimo's*](https://www.kimosmaui.com/). The same deal applied with this assignment in that most of its composition was done through HTML via Bootstrap classes. 
 
-<img width="400px" class="center" src="../img/ui_kimos.jpg">
-<class="center" Figure 2. Title>
+<p style="text-align:center;">
+  <img width="600px" src="../img/ui_kimos.jpg" alt="Kimo's page built with Bootstrap 5">
+  <br>
+  <em>Figure 2.</em> My Kimo's page built with Bootstrap 5
+</p>
 
 At first, this felt weird since I was putting 'styling' in HTML. After building a couple more web pages though, it all started to make sense. Bootstrap is not trying to replace either HTML/CSS fundamentals rather it is a form of trying to standardize the most common layout decisions so that I don't have to reinvent them every single time.
 
@@ -60,7 +63,7 @@ Bootstrap gives me patterns that "want" to behave well. In Island Snow, I used a
             </div>
         </nav>
 ```
-<class="center" Figure 3. Title>
+<p style="text-align:center;">A code snippet of the navbar I created for Island Snow</p>
 
 ## The Return of My Investment?
 As frustrating and time consuming the learning curve posed itself to be with UI Bootstrap, I ultimately benefitted in three practical ways:
@@ -120,6 +123,7 @@ Without a framework, I see creation as a form of inventing my own mini-framework
     </div>
   </footer>
 ```
+<p style="text-align:center;">A code snippet of the footer I created for Kimo's</p>
 
 ## The Software Engineering Benefits
 Expanding on the notion of black boxes; the part about learning UI frameworks that surprised me was how they're not only visuals but, they are closely tied with software engineering. Three software engineering practices I took away from UI frameworks is:
