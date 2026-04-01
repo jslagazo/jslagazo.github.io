@@ -34,7 +34,7 @@ Currently, we envision the application as a small collective of focused pages th
 2. **Map Page**:
     The central feature of the system, displays campus recycling locations using pins and allows users to visually locate nearby recycling bins.
 3. **Announcements Page**:
-    Will display relevant campus updates, including information from initiatives like Bottles4College and other events.
+    Will display relevant campus updates, including information from initiatives like [*Bottles4College* ](https://bottles4college.com/) and other events.
 4. **Sorting Guide Page**:
     Helps users understand what materials can and cannot be recycled in the located bins.
 5. **Statistics Page**: 
