@@ -12,7 +12,7 @@ labels:
   - React
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/cycle5ense-logo.png" alt="Cycle5ense Logo">
+<img width="500px" class="rounded float-start pe-3" src="../img/cycle5ense-logo.png" alt="Cycle5ense Logo">
 
 ## More Than Just a Bin?
 Recycling bins to most people are like road trips, you only see the final result of a corresponding action which in that case would be successfully travelling from Point A to Point B; in the recycling case, successfully placing a recyclable item in the corresponding bin. In other words, the system behind both processes are overlooked. Obviously someone is responsible for deciding where the bin is located, its labeling, the accepted material types, and how interactable it poses itself to be. A great recycling system is not about encompassing a vast area, rather it is about providing a clear structure that is easily understood and reused. That being said, this is a good way to think about design patterns in software engineering. A design pattern is essentially a reusable blueprint to solve commonly occuring problems. Similarly to how a recycling guide advises people about proper disposal of certain items, a design pattern provides developers with a method to organize their code.
