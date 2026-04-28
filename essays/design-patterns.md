@@ -13,7 +13,7 @@ labels:
 ---
 
 <p style="text-align:center;">
-  <img width="900px" src="../img/cycle5ense-logo.png" alt="Cycle5ense Logo">
+  <img width="400px" src="../img/cycle5ense-logo.png" alt="Cycle5ense Logo">
 </p>
 
 ## More Than Just a Bin?
