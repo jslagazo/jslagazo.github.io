@@ -12,7 +12,7 @@ labels:
 ---
 
 <p style="text-align:center;">
-  <img width="900px" src="../img/idpm-tracking.jpg" alt="Time Tracking Photo">
+  <img width="600px" src="../img/idpm-tracking.jpg" alt="Time Tracking Photo">
 </p>
 
 ## Learning to Estimate Before Coding
@@ -44,5 +44,5 @@ An example of an AI prompt I used is: “Here is our Next.js page together with 
 ## What I'd Try Next Time
 In the future, I will improve my assessment method by breaking down each problem into smaller parts before making estimates. Rather than giving one estimate for the whole task, I could incorporate planning, testing, and review time. This would improve the estimate's precision as many issues aren't difficult due to one major component; instead, they are complicated due to many small tasks that add up. I would pay closer attention to non-coding efforts as well. Non-coding tasks were among the simplest to undervalue, as they didn't always seem like “actual work,” despite their significance. Examining requirements, considering teammate input, strategizing the design, and assessing the project board all played a key role in the project's success. For an upcoming project, I would utilize a spreadsheet, timer, or provide comments more regularly to ensure the final effort report relies on more accurate data.
 
-## Last Thoughts
+## Final Thoughts
 Overall, effort estimation gave me practical insights into managing software projects. Cycle5ense showed that estimation isn't solely about achieving complete accuracy; rather it calls for genuine planning, monitoring, and extracting insights from the discrepancy between the prediction and the actual result. The key insight I obtained is that simple issues can become intricate when they interact with the larger system. A small UI change, date fix, or redirect could necessitate design decisions, testing, and teamwork among members. Consequently, estimating effort is vital not just for planning but also for understanding the true amount of work required in software development.
