@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/cycle5ense-logo.png
+image: img/cycle5ense-logoStock.jpg
 title: "Cycle5ense"
-date: 2025-05-11
+date: 2025-05-12
 published: true
 labels:
   - ICS 314 Final Project
@@ -25,7 +25,11 @@ From the completion of this project, I got a better understanding of software en
 If you are interested in learning more about this project, our organization GitHub page can be found [here](https://github.com/cycle5ense), our project documentation page [here](https://cycle5ense.github.io/), and the deployed application [here](https://cycle5ense.vercel.app/).
 
 Below is a snippet of the Cycle5ense website homepage:
-<img width="700px" class="rounded pe-4" src="../img/cycle5ense-landingPage.jpg" alt="Cycle5ense landing page screenshot">
+<div class="text-center p-1">
+  <img width="700px" src="../img/cycle5ense-landingPage.jpg" class="img" alt="Cycle5ense landing page screenshot">
+</div>
 
 Here is another snippet of the Cycle5ense website showing our focus on the map API implementation:
-<img width="700px" class="rounded pe-4" src="../img/cycle5ense-mapPage.jpg" alt="Cycle5ense map page screenshot">
+<div class="text-center p-1">
+  <img width="700px" src="../img/cycle5ense-mapPage.jpg" class="img" alt="Cycle5ense map page screenshot">
+</div>
