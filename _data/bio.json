@@ -3,11 +3,11 @@
     "name": "Julius Lagazo",
     "label": "Student",
     "picture": "https://github.com/jslagazo.png",
-    "email": "jslagazo@hawaii.edu",
+    "email": "juliussantoslagazo@gmail.com",
     "phone": "808-868-8180",
     "website": "https://jslagazo.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2026. I plan on reconnecting with my roots and returning back home to give back to the community that raised me by sharing my academic experiences.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2026. My goal is to stay rooted and give back to the community that raised me. ALOHA!",
+    "location": { "address": "", "postalCode": "96761", "city": "Lahaina", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jslagazo", "url": "http://github.com/jslagazo" },
       { "network": "linkedin", "username": "julius-lagazo", "url": "http://linkedin.com/in/julius-lagazo" }
@@ -33,15 +33,22 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Electical & Computer Engineering: CENG Track (expected Spring, 2026)",
+      "area": "Electrical & Computer Engineering: CENG Track (expected Spring, 2026)",
       "studyType": "B.S.",
       "startDate": "2024-08-26",
       "endDate": "Present",
       "courses": [
+        "ECE 495: Ethics in Electrical Engineering",
+        "ECE 371: Engineering Electromagnetics I",
+        "ECE 367/L: Computer Data Structures & Algorithms",
         "ECE 361/L: Digital System & Computer Design",
         "ECE 362: Discrete Mathematics for Engineers",
+        "ECE 343/L: Communication Systems",
         "ECE 326: Microelectronic Circuits II",
-        "ECE 205: Object Oriented Programming"
+        "ECE 315: Signals & Systems",
+        "ECE 205: Object Oriented Programming",
+        "ICS 332: Operating Systems",
+        "ICS 314: Software Engineering I"
       ]
     },
         {
@@ -81,8 +88,12 @@
       "highlights": [
         "Program Financial Officer, UH Manoa, Team Kanaloa VIP, Spring 2025",
         "Fast Fluorescence System Integrator, UH Manoa, Team Kanaloa VIP, Spring 2025",
-        "Member, UH Manoa, IEEE Student Branch, Fall 2024-Present",
-        "Member, UH Manoa, Club PI +, Fall 2025-Present"
+        "Member, UH Manoa, IEEE Student Branch, Fall 2024 - Present",
+        "Member, UH Manoa, Club PI +, Fall 2025 - Present",
+        "Clarinet Sect. Leader, LHS Concert Ensemble, 2021 - 2022",
+        "Clarinet Sect. Leader, LHS Symphonic Ensemble, 2021 - 2022",
+        "Clarinet Sect. Leader, LHS Marching Ensemble, 2020 - 2022",
+        "Treasurer, LHS Music Department, 2020 - 2022"
       ]
     }
   ],
@@ -92,6 +103,12 @@
       "date": "2022",
       "awarder": "Lahainaluna High School",
       "summary": "An educational program that aligns academic standards with technical knowledge and skills to prepare students for careers in current or emerging occupations and further education; completed with a final Performance Based Assessment (PBA) project."
+    },
+    {
+      "title": "C.A.N.O.E Hawai'i Pre-Health Academy Certification",
+      "date": "2021",
+      "awarder": "Lark Morin, Pacific Area Health Education Center (AHEC)",
+      "summary": "An introductional program that sets the foundation for students interested in pursuing a career in the health field; involves a series of workshops exhibiting clinical skills, soft and hard skill development, and career exploration."
     }
   ],
   "references": [

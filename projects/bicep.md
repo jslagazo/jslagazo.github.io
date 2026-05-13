@@ -2,13 +2,14 @@
 layout: project
 type: project
 image: img/cycle5ense-logoStock.jpg
-title: "Cycle5ense"
+title: "Fabrication of a Cost-Effective Anisotropic Phantom for Ultrasound Elastography"
 date: 2026-05-12
-published: true
+published: false
 labels:
-  - ICS 314 Final Project
-  - Software Engineering
-  - Web Development
+  - Senior Design Capstone
+  - Electrical and Computer Engineering
+  - Research
+  - Biomedical Imaging
 summary: "A group project based on desinging a website relevant to the UH Manoa Community in ICS 314: Software Engineering I course."
 ---
 
