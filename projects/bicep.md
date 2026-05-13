@@ -1,36 +1,44 @@
 ---
 layout: project
 type: project
-image: img/cycle5ense-logoStock.jpg
+image: img/bicepStock.jpg
 title: "Fabrication of a Cost-Effective Anisotropic Phantom for Ultrasound Elastography"
 date: 2026-05-12
-published: false
+published: true
 labels:
   - Senior Design Capstone
   - Electrical and Computer Engineering
   - Research
   - Biomedical Imaging
-summary: "A group project based on desinging a website relevant to the UH Manoa Community in ICS 314: Software Engineering I course."
+summary: "A design project in fabricating and testing a low-cost anisotropic tissue phantom using resin-printed muscle fibers, gelatin/agar material, ultrasound imaging, and MATLAB-based displacement analysis.
+"
 ---
 
-Cycle5ense is a web-based application developed as a final project for the course ICS 314: Software Engineering I offered by the University of Hawai’i at Mānoa. The current project will serve as an aid in increasing access to and knowledge about recycling among students on campus by providing a website that features information about recycling, the locations of the recycle bins, recycling tips, and news about recycling activities on campus. It is also one of the objectives of our group when developing this application to help individuals who want to recycle but, lack information about it.
+In my ECE 496 Senior Capstone Design, my partner and I had a project involving the development of a low-cost anisotropic phantom for use in ultrasound elastography. A phantom is an artificial substance that can emulate living tissue when being imaged thus, its primary purpose is to provide a platform for testing imaging technologies without resorting to living specimens. Our project focused on skeletal muscle because, muscle fibers are directionally organized, meaning their mechanical response can change depending on the angle at which they are scanned or tested.
 
-To begin, our group discussed common problems related to recycling on campus and used those concerns to shape the purpose of the application. This way, we started planning the essential features for Cycle5ense such as the home page, recycling resources, mapping capabilities, user authentication, and admin functionality. The application development was done on a TypeScript-based Next.js framework architecture with database integration and deployment through Vercel. The public GitHub organization contains both the main Cycle5ense repository and the project documentation page while the main application repository links to the deployed website.
+The goal of this project was to create a low-cost phantom that could reproduce part of this direction-dependent behavior. To do this, we designed muscle-like fiber structures, fabricated them using resin 3D printing, embedded them into a gelatin/agar and graphite matrix, and scanned the final sample using ultrasound. The resin fibers were not meant to perfectly replicate real bicep tissue but, they gave the phantom an internal fiber direction, which is necessary for anisotropic behavior. If there were changes in the ultrasound output depending on the angle of scanning, this could be used as a basis for further experiments on ultrasound elastography.
 
-Regarding the project, the involvement in its development was related to developing the front-end structure, designing pages, debugging, and application development in general. Concerning the development of the interface, I should say that it involved refining some elements so as to make the interface well-structured and convenient for users. In addition, I helped with debugging and solving certain issues connected with the navigation bar, landing page functionality, mockup of recycling statistics, footer design, route setup of the admin page, and recycling dates display. As regards to the collaboration with my colleagues, not only did I code yet I also managed our project using certain features of GitHub including issues, branches, and others.
+For my part in the design process, I was responsible for the following parts of the project: helping solidify the project objective, researching previous phantom designs, designing and revising the mold and fiber approach, preparing the phantom material, assisting with ultrasound scanning, and helping analyze the resulting B-mode and MARDI displacement data. Our process involved Onshape for CAD modeling, resin printing for the detailed muscle-like fibers, filament printing for reusable mold boxes, MATLAB for ultrasound data processing, and Google Sheets for organizing displacement values and scatterplots.
 
-Among some of the lessons learned from the completion of this project were the value of planning and coordination in creating a full-stack app in a team environment. While smaller projects involve independent coding for the most part, Cycle5ense involved coordinating several parts of the project including the front end, database models, authentication, authorization by role, deployment, and documentation of the project. Additionally, this project helped me gain further experience with technologies like Next.js, React-Bootstrap, Prisma, PostgreSQL, GitHub, and Vercel as a fully functioning and deployed website.
+Without a doubt, the most important aspect of this whole project is how the accuracy of fabrication affects the accuracy of the images. The presence of air bubbles, gaps, misalignment of the fiber, or even breakage of the resin strands can alter the results of the ultrasonic imaging process. Therefore, apart from being accurate, this particular project was about creating a procedure that could generate reproducible results through imaging.
 
-From the completion of this project, I got a better understanding of software engineering not only about coding particular methods or pages but also about being able to collaborate with others on a shared codebase, communicating through issues and pull requests, debugging other peoples' code, and creating features for real-life users. In short, Cycle5ense provided me with an opportunity to practice developing software in a collaborative environment and design software toward a real-world application on our university’s campus.
+Our final results showed that the phantom could be imaged at different orientations. B-mode ultrasound images were focused at 0°, 45°, and 90°, showing that the visible fiber pattern changed based on scan orientation. We also used MARDI-related displacement maps at frequencies such as 100 Hz, 500 Hz, and 1000 Hz to observe how the phantom response changed with excitation frequency. Nevertheless, these results demonstrated the viability of our project even though there is a need for further development for this project to become a quantitative validation tool for stiffness.
 
-If you are interested in learning more about this project, our organization GitHub page can be found [here](https://github.com/cycle5ense), our project documentation page [here](https://cycle5ense.github.io/), and the deployed application [here](https://cycle5ense.vercel.app/).
+After completing this project, I have learned more about how electrical engineering theories relate to biomedical imaging research. Through this project, concepts of signal and system, ultrasound waves, MATLAB image processing, instrumentation, CAD model creation, 3D printing, and other engineering aspects were brought together. Additionally, I learned that engineering experimentation involved iterations since designs work theoretically, however, other aspects such as manufacturing capabilities, material property, alignment, and set-up could affect outcomes. Overall, this project allowed me to gain insight into biomedical imaging research as well as engineering design and fabrication processes at a capstone level research project.
 
-Below is a snippet of the Cycle5ense website homepage:
+For additional information regarding the project, please refer to the [Final Report](https://drive.google.com/file/d/1F8LuvqYocZyBhn9sI9Jryyc8esJsQDYH/view?usp=drive_link) where details such as phantom design, fabrication process, and imaging were elaborated on.
+
+Below is a picture of the fabricated phantom and imaging setup:
 <div class="text-center p-1">
-  <img width="700px" src="../img/cycle5ense-landingPage.jpg" class="img" alt="Cycle5ense landing page screenshot">
+  <img width="600px" src="../img/bicepImaging.jpg" class="img" alt="Imaging Setup">
 </div>
 
-Here is another snippet of the Cycle5ense website showing our focus on the map API implementation:
+Below is a sample of the B-mode ultrasound data collected at different scan orientations:
 <div class="text-center p-1">
-  <img width="700px" src="../img/cycle5ense-mapPage.jpg" class="img" alt="Cycle5ense map page screenshot">
+  <img width="600px" src="../img/bicepBMode.jpg" class="img" alt="Sample Data">
+</div>
+
+And here is an image of my partner [Mark](https://www.linkedin.com/in/mark-navarro-82b24332a/) and I with our professor [Dr. Hossain](https://www.uhcancercenter.org/hossain-murad) during UH Manoa's Spring 2026 ECE 496 Poster Session:
+<div class="text-center p-1">
+  <img width="600px" src="../img/496posterSession.jpg" class="img" alt="Poster Sesh Picture">
 </div>
